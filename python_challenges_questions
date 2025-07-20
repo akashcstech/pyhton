@@ -41,4 +41,29 @@ Tuple: (1, 2, 3, 5, 6, 9)
 Second Smallest: 2
 Second Largest: 6
 ****************************************************************************************************************************************************
+Challenge 3: Set Operations
+Task:
+Given two user inputs as comma-separated values, perform:
 
+Union
+
+Intersection
+
+Difference (A - B)
+
+Example Input:
+
+javascript
+Copy
+Edit
+Set A: apple,banana,mango
+Set B: mango,grape,banana
+Expected Output:
+
+python
+Copy
+Edit
+Union: {'apple', 'banana', 'grape', 'mango'}
+Intersection: {'banana', 'mango'}
+Difference (A - B): {'apple'}
+******************************************************************************************************************************************
