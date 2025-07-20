@@ -1,1 +1,21 @@
-1.program
+Challenge 1: Mixed Data Counter
+Task:
+Take a string input from the user that contains a mix of numbers, letters, and symbols.
+Separate them into three lists:
+
+letters for alphabets
+
+digits for numbers
+
+others for anything else (symbols, spaces)
+
+Expected Output Example:
+
+css
+Copy
+Edit
+Input: Hello123! Welcome@2025
+letters: ['H', 'e', 'l', 'l', 'o', 'W', 'e', 'l', 'c', 'o', 'm', 'e']
+digits: ['1', '2', '3', '2', '0', '2', '5']
+others: ['!', ' ', '@']
+
