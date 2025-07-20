@@ -60,3 +60,36 @@ print(unique_list_sorted)
 print(unique_list_sorted[1])
 print(unique_list_sorted[-2])
 
+****************************************************************************************************************************************
+#Note: union, intersection, difference oly works with sets !
+
+#SET VALUES FROM INPUT USERS
+SET_A = input("SET A: ") #strings Form
+SET_B = input("SET B: ")
+
+#For union of SET A AND SET B
+# 1. convert string to sets, buz union oly works on sets
+# 2. splite the input based on "," (commas) 
+# 3. USE Union() or | - on SET A ANF SET B 
+SET_A = set(SET_A.split(","))
+SET_B = set(SET_B.split(","))
+"""union = SET_A.union(SET_B) #Beginner"""
+#or 
+union = SET_A | SET_B # Best
+
+print(union)
+
+#For intersection
+"""intersection = SET_A.intersection(SET_B) #Beginner"""
+#or 
+intersection = SET_A & SET_B
+print(intersection)
+
+#For difference
+"""diff = SET_A.difference(SET_B) #Beginner"""
+#or
+diff = SET_A - SET_B #Best
+print(diff)
+
+***************************************************************************************************************************************
+
