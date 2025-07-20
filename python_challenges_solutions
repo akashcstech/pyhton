@@ -1,1 +1,62 @@
+Challenge 1 -solution
+def separator():
+        letter_list = []
+        number_list = []
+        other_list = []
+        for x in txt:
+                if x.isalpha():
+                        letter_list.append(x)
+                elif x.isdigit(): 
+                        number_list.append(x)
+                else:
+                        other_list.append(x)
+                
+        print(letter_list)
+        print(number_list)
+        print(other_list)
+          
+
+txt = input()
+output = separator()
+print(output)
+******************************************************************************************************************************************************
+
+Challenge 2 - solution
+#oriinal list
+mylist = [5, 2, 9, 1, 5, 6, 9, 3, 2]
+unique_list = []
+
+#to- remove duplicates (3 ways)
+# using list constructor and set() (begineer)
+"""unique_list = list(set(mylist))
+print(unique_list)
+"""
+#or-(for loop and if condition) & (keeps original order) (begineer)
+"""for x in mylist:
+    if x not in unique_list:
+        unique_list.append(x)
+
+print(unique_list)"""
+
+#or -using (dict) (best)
+unique_list = list(dict.fromkeys(mylist))
+print(unique_list)
+ 
+#to sort it (if we use the set() it gets sorted)
+"""unique_list_sort = list(set(unique_list))
+print(unique_list_sort)
+"""
+#or use the list sort()- to sort in its place
+"""unique_list.sort() #assing not allowed
+print(unique_list)
+"""
+#or use the sorted() - to sort and assign to new var
+unique_list_sorted = sorted(unique_list) # assigning allowed
+print(unique_list_sorted)
+
+#second smallest and sec largest 
+# we kn after sort the sec -s and -l (index) will be [1] and [-1]
+#simply printing index
+print(unique_list_sorted[1])
+print(unique_list_sorted[-2])
 
