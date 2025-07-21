@@ -119,5 +119,14 @@ Sort them
 Print the list
 
 ************************************************************************************************
+Challenge 8: Check for Palindrome
+Task:
+Take a string from user and check if it’s a palindrome.
+
+python
+Copy
+Edit
+Input: madam
+Output: Palindrome
 
 
