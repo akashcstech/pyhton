@@ -173,6 +173,39 @@ unique_val = sorted(unique_val) # beginner
 # jst print the unique sorted value
 print(unique_val)
 
+***********************************************************************************************************************************
+Challenge_8 - solution
+#Taking User input
+word = input("Enter a palindrome Word!:")
+
+#checking palindrome by equal operator and revering the word and using If condition
+if word == word[::-1]: # Best way to reverse String word[::-1]
+    print("word is a palindrome:",word)
+else:
+    print("It is not a palindrome")
+
+#other way to reverse string
+
+#using for loop 
+reversed_word = ""
+
+for char in word:
+    reversed_word = char + reversed_word
+
+# now check for palindrome using if condition
+if word == reversed_word:
+     print("word is a palindrome:",word)
+else:
+    print("It is not a palindrome")
+    
+
+# or we can reverse by join() - str funtion
+
+reversed_word = "".join(reversed(word))
+if word == reversed_word:
+     print("word is a palindrome:",word)
+else:
+    print("It is not a palindrome")
 
 
 
