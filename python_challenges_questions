@@ -144,3 +144,22 @@ Task:
 Split a list of numbers into two lists: one for even and one for odd numbers.
 
 ****************************************************************************************************
+Beginner - Interview Level Questions
+****************************************************************************************************
+Q1. Master of Mutability
+Concepts: Variables, Lists, Tuples, Data Types
+
+python
+Copy
+Edit
+Given:
+
+a = [1, 2, 3]
+b = (a, 4)
+a.append(5)
+
+Question:
+- What is the value of `b`?
+- Why does it change even though tuples are immutable?
+*******************************************************************************************************
+
