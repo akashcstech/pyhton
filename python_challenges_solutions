@@ -245,8 +245,8 @@ print(even_list)
 print(odd_list)
 """
 # or Best way using list comphrension
-even = [x for x in numbers if x % 2 == 0] #Best Way
-odd = [x for x in numbers if x % 2 != 0]
+even = [x for x in data if x % 2 == 0] #Best Way
+odd = [x for x in data if x % 2 != 0]
 
 # print the list   
 print(even)
