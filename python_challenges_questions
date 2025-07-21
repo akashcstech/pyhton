@@ -128,5 +128,13 @@ Copy
 Edit
 Input: madam
 Output: Palindrome
+************************************************************************************************
+Challenge 9: Tuple to Dictionary
+Task:
+Convert this list of tuples into a dictionary:
 
+python
+Copy
+Edit
+data = [('a', 1), ('b', 2), ('c', 3)]
 
