@@ -93,4 +93,17 @@ diff = SET_A - SET_B #Best
 print(diff)
 
 ***************************************************************************************************************************************
+Challenge_4 - solution
+#Vowels counter
+# taking input str
+word = input("Enter any word:")
 
+#count the number of Vowels using for loop and if condition
+check = ['a','e','i','o','u']
+count = 0
+for item in word:
+    if item in check:
+        count = count + 1
+        
+#print count
+print("Number of Vowels is :",count)
