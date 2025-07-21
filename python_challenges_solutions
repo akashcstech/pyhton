@@ -107,3 +107,28 @@ for item in word:
         
 #print count
 print("Number of Vowels is :",count)
+
+************************************************************************************************************************************
+Challenge_5 - solution
+#Note: there is no direact avg function like sum, min, max 
+# use sum / total num of items 
+#Given List
+mylist = [10, 20, 30, 40, 50]
+
+# Finf Sum, min, max, Average #best
+Sum = sum(mylist)
+min = min(mylist)
+max = max(mylist)
+avg = sum(mylist) / len(mylist)
+
+print(f"sum:{Sum}, min:{min},max:{max},avg:{avg}")
+
+#Bonus: if list is empty, to avoid the div by 0 !
+# use a if conditon
+
+#other way by using import func - statistics #good !
+"""import statistics
+
+avg = statistics.mean(mylist)
+print(avg)
+"""
