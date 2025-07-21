@@ -145,6 +145,13 @@ Split a list of numbers into two lists: one for even and one for odd numbers.
 
 ****************************************************************************************************
 Beginner - Interview Level Questions
+
+RULES: You must solve them using only:
+
+✅ variables, strings, lists, tuples, sets, numbers, booleans, casting, operators, comments, syntax
+
+No functions, dicts, loops, or imports unless the problem clearly allows it.
+For and if allowed in list comprehentions!
 ****************************************************************************************************
 Q1. Master of Mutability
 Concepts: Variables, Lists, Tuples, Data Types
@@ -162,4 +169,20 @@ Question:
 - What is the value of `b`?
 - Why does it change even though tuples are immutable?
 *******************************************************************************************************
+Q2. Set of Confusion
+Concepts: Sets, Strings, Operators
+
+python
+Copy
+Edit
+Given:
+s = "abcABC123!@#abc"
+Use sets and string slicing logic to:
+
+- Print all unique **alphabet characters** (ignore digits/symbols)
+- Output should be **case-insensitive and sorted**
+
+Expected Output:
+['a', 'b', 'c']
+Hint: Use .lower(), isalpha(), and set().
 
