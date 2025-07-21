@@ -132,3 +132,20 @@ print(f"sum:{Sum}, min:{min},max:{max},avg:{avg}")
 avg = statistics.mean(mylist)
 print(avg)
 """
+***********************************************************************************************************************************
+Challenge_6 - solution
+#given list to swap
+mylist = [1, 2, 3, 4]
+
+# to swap first and last items 
+#using temp var #Begineer
+"""temp = mylist[0]
+mylist[0] = mylist[-1]
+mylist[-1] = temp
+
+print(mylist)"""
+
+# using swap easy pytonic way (it is something oly python allows)
+mylist[0], mylist[-1] = mylist[-1], mylist[0] # simple and Best
+
+print(mylist)
