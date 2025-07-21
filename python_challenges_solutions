@@ -149,3 +149,30 @@ print(mylist)"""
 mylist[0], mylist[-1] = mylist[-1], mylist[0] # simple and Best
 
 print(mylist)
+*************************************************************************************************************************************
+Challenge_7 - solution
+#Note: Refer Challenge 2 , then this !
+
+#Taking user input
+value = (input("enter number (separated by commas):"))
+
+#Since input()-funtion, oly grabs str ! we need to convert into int and also separate by ","
+value = [int(x) for x in value.split(",")] # best way convert to intput val to int !
+"""
+#remove duplicate 
+unique_val = list(set(value)) # beginner
+
+"""
+#or using dict to unique_val
+unique_val = list(dict.fromkeys(value)) # Best way to get unique val
+
+
+#by using set it order automatically
+unique_val = sorted(unique_val) # beginner
+
+# jst print the unique sorted value
+print(unique_val)
+
+
+
+
