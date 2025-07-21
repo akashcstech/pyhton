@@ -108,3 +108,16 @@ Edit
 Input: [1, 2, 3, 4]
 Output: [4, 2, 3, 1]
 **********************************************************************************************************
+Challenge 7: Unique Sorted List
+Task:
+Take comma-separated numbers as input and:
+
+Remove duplicates
+
+Sort them
+
+Print the list
+
+************************************************************************************************
+
+
