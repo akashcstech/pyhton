@@ -207,5 +207,20 @@ if word == reversed_word:
 else:
     print("It is not a palindrome")
 
+***************************************************************************************************************************
+Challenge_9 - solution
+#given data of list of tuple
+data = [('a', 1), ('b', 2), ('c', 3)]
+
+#convert into dict
+dict = dict(data) #Best way to convert list to dict !
+print(dict)
+
+#or other way by key, value
+"""key , value = zip(*data) # using zip() to unpack the list items !
+mydict = dict(zip(key, value))
+print(mydict)"""
+
+**************************************************************************************************************************
 
 
