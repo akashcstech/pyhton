@@ -252,4 +252,24 @@ odd = [x for x in data if x % 2 != 0]
 print(even)
 print(odd)
 
+***********************************************************************************************************************
+Beginner Interview Level -Solutions
+*******************************************************************************************************************
+Q1 - Solution !
+
+a = [1,2,3]
+b = (a,4)
+a.append(5)
+
+# Ans1: 
+# b = ([1, 2, 3, 5], 4)
+# The datatype of b is tuple.
+
+# Ans2:
+# Tuples are immutable, but the objects inside them can still be mutable.
+# In this case, the tuple itself is not changing — you're modifying the list `a`.
+# Since the tuple holds a reference to that list, any change to the list is reflected inside the tuple.
+
+**************************************************************************************************************************
+
 
