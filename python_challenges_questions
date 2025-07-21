@@ -67,3 +67,17 @@ Union: {'apple', 'banana', 'grape', 'mango'}
 Intersection: {'banana', 'mango'}
 Difference (A - B): {'apple'}
 ******************************************************************************************************************************************
+Challenge 4: Vowel Counter
+Task:
+Take a string from the user and count how many vowels it has.
+✅ Use loops and conditions
+
+Example:
+
+makefile
+Copy
+Edit
+Input: education
+Output: 5
+
+***********************************************************************************************************
