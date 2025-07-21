@@ -198,3 +198,25 @@ data = [True, False, 1, 0, 'True', '', [], [0], (), (0,), None]
 Print only the **truthy values** from the list using a loop (no if statements allowed).
 Hint: Use list comprehension and understand "truthiness" in Python.
 *********************************************************************************************************
+Q4. The Tuple Trap
+Concepts: Tuples, Data Types
+
+python
+Copy
+Edit
+What is the output of:
+
+a = (1)
+b = (1,)
+c = (1, 2) + (3,)
+d = (1 + 2,)
+
+Print type and values of all.
+
+Expected:
+- type(a)
+- type(b)
+- c
+- d
+Hint: Difference between (1) and (1,) is deadly in interviews.
+******************************************************************************************************************
