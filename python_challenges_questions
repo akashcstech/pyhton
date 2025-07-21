@@ -220,3 +220,18 @@ Expected:
 - d
 Hint: Difference between (1) and (1,) is deadly in interviews.
 ******************************************************************************************************************
+Q5. Operator Madness
+Concepts: Boolean logic, Comparison, Operators
+
+python
+Copy
+Edit
+Predict the output of this chained operation:
+
+x = 10
+result = x > 5 == True
+
+What is the value of `result`?
+Explain why this works (or not).
+Hint: Chained comparisons like x > 5 == True don’t mean what you think.
+********************************************************************************************************************
