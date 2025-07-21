@@ -185,4 +185,16 @@ Use sets and string slicing logic to:
 Expected Output:
 ['a', 'b', 'c']
 Hint: Use .lower(), isalpha(), and set().
+*******************************************************************************************************
+Q3. List Puzzle — Only Booleans Can Pass
+Concepts: Booleans, Lists, Operators
 
+python
+Copy
+Edit
+Given:
+data = [True, False, 1, 0, 'True', '', [], [0], (), (0,), None]
+
+Print only the **truthy values** from the list using a loop (no if statements allowed).
+Hint: Use list comprehension and understand "truthiness" in Python.
+*********************************************************************************************************
