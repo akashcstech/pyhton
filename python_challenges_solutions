@@ -311,5 +311,10 @@ d = (1 + 2,) # it add and store total as tuple element
 print(d)
 print(type(d))
 ***********************************************************************************************************************************
-
+Q5 - Solution !
+# Ans: the result is false ! buz, in chained operation python interprets as (and)
+# for example: x > 5 == true , is chained opertation !
+# but python interpret as x > 5 and 5 == True !
+# so x > 5, means 10 > 5 , true ! but 5 == True ! so, it assign False !
+***********************************************************************************************************************
 
