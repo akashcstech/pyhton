@@ -61,6 +61,7 @@ print(unique_list_sorted[1])
 print(unique_list_sorted[-2])
 
 ****************************************************************************************************************************************
+Challenge_3 - solution
 #Note: union, intersection, difference oly works with sets !
 
 #SET VALUES FROM INPUT USERS
