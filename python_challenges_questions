@@ -11,7 +11,7 @@ others for anything else (symbols, spaces)
 
 Expected Output Example:
 
-css
+python
 Copy
 Edit
 Input: Hello123! Welcome@2025
@@ -34,7 +34,7 @@ Print the second smallest and second largest number.
 Input List: [5, 2, 9, 1, 5, 6, 9, 3, 2]
 Expected Output:
 
-yaml
+python
 Copy
 Edit
 Tuple: (1, 2, 3, 5, 6, 9)
@@ -53,7 +53,7 @@ Difference (A - B)
 
 Example Input:
 
-javascript
+python
 Copy
 Edit
 Set A: apple,banana,mango
@@ -74,7 +74,7 @@ Take a string from the user and count how many vowels it has.
 
 Example:
 
-makefile
+python
 Copy
 Edit
 Input: education
@@ -98,3 +98,13 @@ Copy
 Edit
 numbers = [10, 20, 30, 40, 50]
 *************************************************************************************************************
+Challenge 6: Swap First and Last Element
+Task:
+Swap the first and last elements of a list.
+
+python
+Copy
+Edit
+Input: [1, 2, 3, 4]
+Output: [4, 2, 3, 1]
+**********************************************************************************************************
