@@ -295,4 +295,21 @@ truthy = list(filter(None, data))
 #print 
 print(truthy)
 ********************************************************************************************************************
+Q4 - Solution !
+# common Mistake
+a = (1)     # this is a int
+print(type(a)) 
+
+b = (1,)    #this is a tuple with one element
+print(type(b))
+
+c = (1, 2) + (3, ) #tuple is immutable , but we can concatenate
+print(c)
+print(type(c))
+
+d = (1 + 2,) # it add and store total as tuple element
+print(d)
+print(type(d))
+***********************************************************************************************************************************
+
 
