@@ -271,5 +271,18 @@ a.append(5)
 # Since the tuple holds a reference to that list, any change to the list is reflected inside the tuple.
 
 **************************************************************************************************************************
+Q2 - Solution !
+# Given string
+s = "abcABC123!@#abc"
 
+# To print all unique **alphabet characters** (ignore digits/symbols)
+mystring = list(set(s.lower()))
+
+mystring = [x for x in mystring if x.isalpha()]
+
+mystring.sort()
+
+print(mystring)
+
+***************************************************************************************************************************
 
