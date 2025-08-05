@@ -37,6 +37,6 @@ Python Try Except
 Python String Formatting
 Python User Input
 
-bellow are the challenges tht cover all the topics mentiond...!
+bellow are the challenges tht cover all the topics mentiond...! ( 50 questoin - easy, medium, hard )
 **************************************************************************************************************************************
 
