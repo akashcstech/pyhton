@@ -1,0 +1,57 @@
+******************************************************************
+Python Basics (Intro, Syntax, Comments, Variables, Data Types)
+******************************************************************
+1.Print "Hello, Python!" to the screen.
+-----------------------------------------------------------------
+print("Hello, Python!")
+
+----------------------------------------------------------------
+2.Write a comment that describes what your program does.
+----------------------------------------------------------------
+x = 5 # assign value 5 to variable x
+print(x) # printing the value !
+
+--------------------------------------------------------------
+3.Create a variable name and assign your name to it. Print it.
+----------------------------------------------------------------
+name = "Max"
+print(name)
+
+-----------------------------------------------------------------
+4. Check the data type of the variable x = 5.6.
+-------------------------------------------------------------------
+a = 5.6  # assign value 5 to variable a
+print(type(a)) # using type() to check_datatype...!
+
+----------------------------------------------------------------------------------------------
+5. Assign values of different types (int, float, str, bool) to four variables and print them.
+----------------------------------------------------------------------------------------------
+number = 36
+decimal_num = 22.43
+name = "Max Verstappen"
+boolean = True
+
+print(number)
+print(decimal_num)
+print(name)
+print(boolean)
+-----------------------------------------------------------------------------------------------
+*******************************************************************
+✅ Numbers, Casting, Strings, Booleans
+********************************************************************
+6.Convert a string "123" to an integer and print the result.
+---------------------------------------------------------------------
+number = int("123")
+print(number)
+print(type(number)
+
+---------------------------------------------------------------------
+7.Convert the float 7.89 to an integer.
+-------------------------------------------------------------------
+num = int(7.89)
+print(num)
+--------------------------------------------------------------------
+8.
+
+
+
