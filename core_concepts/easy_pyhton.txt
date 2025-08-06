@@ -18,3 +18,29 @@ Numbers, Casting, Strings, Booleans
 ----------------------------------------------------------------------
 7.Convert the float 7.89 to an integer.
 ----------------------------------------------------------------------
+8.Concatenate two strings: "Hello" and "World".
+-----------------------------------------------------------------------
+9.Check if a number is positive or negative using boolean.
+-----------------------------------------------------------------------
+10.Find the length of a given string.
+---------------------------------------------------------------------
+11.Add two numbers and print the result.
+-------------------------------------------------------------------------
+12.Use // to perform floor division.
+-----------------------------------------------------------------------
+13.Check if 10 is greater than 5 using a comparison operator.\
+----------------------------------------------------------------------------
+14.Use a logical operator to check if a > 5 and b < 10.
+----------------------------------------------------------------------------
+15.Use the modulo operator to find the remainder of 10 % 3.
+----------------------------------------------------------------------------
+16.Create a list of your favorite fruits and print it.
+----------------------------------------------------------------------------
+17.Add an item to the list and print the updated list.
+-----------------------------------------------------------------------------
+18.Create a tuple of 3 colors and access the second one.
+-----------------------------------------------------------------------------
+19.Create a set of unique strings from a list with duplicates.
+----------------------------------------------------------------------------
+20.Create a dictionary with name and age, and print the age.
+----------------------------------------------------------------------------
