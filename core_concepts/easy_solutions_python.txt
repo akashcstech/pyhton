@@ -235,20 +235,19 @@ greeting("Max Verstappen")
 ----------------------------------------------------------------------------------------------------
 31.Use a lambda function to multiply two numbers.
 -----------------------------------------------------------------------------------------------------
-sum = lambda a, b: a * b
+multiply = lambda a, b: a * b
 
-print(sum(10, 6))
+print(multiply(10, 6))
 ------------------------------------------------------------------------------------------------------
 32.Create a function that returns the sum of a list.
 ----------------------------------------------------------------------------------------------------
-def sum(num):
+def listsum(num):
     value = 0
     for i in num:
         value = value + i
-    
     return value
 num = [1,2,3,4,5,6]
-print(sum(num))
+print(listsum(num))
 ------------------------------------------------------------------------------------------------------
 ****************************************************************************************************
 ✅ Arrays (via List), OOP, Classes/Objects
@@ -260,7 +259,7 @@ print(num[2])
 --------------------------------------------------------------------------------------------------------
 34.Create a class Car with attributes brand and year.
 --------------------------------------------------------------------------------------------------------
-class car:
+class Car:
     def __init__(self, brand, year):
         self.brand = brand
         self.year = year
@@ -268,29 +267,32 @@ class car:
 ------------------------------------------------------------------------------------------------------------
 35.Create an object of the Car class and print the brand.
 ----------------------------------------------------------------------------------------------------------
-class car:
+class Car:
     def __init__(self, brand, year):
         self.brand = brand
         self.year = year
 
-obj1 = car("Volvo", 1985)
+obj1 = Car("Volvo", 1985)
 
 print(obj1.brand)
 --------------------------------------------------------------------------------------------------------------
 36.Add a method to the class Car that returns "Running".
 -----------------------------------------------------------------------------------------------------------
-class car:
+class Car:
     def __init__(self, brand, year):
         self.brand = brand
         self.year = year
 
     def status(self):
-        print("Running " + self.brand)
+        return "Running " + self.branddef listsum(num):
+    return sum(num)
+    
+num = [1,2,3,4,5,6]
+print(listsum(num))
 
-obj1 = car("Bmw",2005)
+obj1 = Car("Bmw",2005)
 
-print(obj1)
-obj1.status()
+print(obj1.status())
 ----------------------------------------------------------------------------------------------------------------
 *************************************************************************************************************
 ✅ Inheritance, Polymorphism
@@ -298,44 +300,34 @@ obj1.status()
 37.Create a class Animal with a method sound(). Create a subclass Dog that overrides sound() and returns "Bark".
 ------------------------------------------------------------------------------------------------------------------
 class Animal:
-    def __init__(self, pet):
-        self.pet = pet
-    
     def sound(self):
         print("Meow")
 
 
-class subclass(Animal):
+class Dog(Animal):
     def sound(self):
         print("Bark")
 
 
-obj1 = Animal("Dog")
+obj1 = Animal()
 obj1.sound()
 
-obj2 = subclass("Dog")
+obj2 = Dog()
 obj2.sound()
 --------------------------------------------------------------------------------------------------------------------
 38.Create two classes Cat and Cow, each with a method speak(). Call speak() for both using the same function (polymorphism).
 -----------------------------------------------------------------------------------------------------------------------------
-class cat:
-    def __init__(self, cat):
-        self.cat = cat
-
-    def speak():
+class Cat:
+    def speak(self):
         print("meow")
 
-class cow:
-    def __init__(self, cow):
-
-        self.cow = cow 
-
-    def speak():
+class Cow: 
+    def speak(self):
         print("Moo")
         
 
-obj1 = cat
-obj2 = cow
+obj1 = Cat()
+obj2 = Cow()
 print(obj1.speak())
 print(obj2.speak())
 ----------------------------------------------------------------------------------------------------------------------------------
@@ -344,15 +336,22 @@ print(obj2.speak())
 **********************************************************************************************************************
 39.Create a custom iterator that returns numbers from 1 to 3.
 ---------------------------------------------------------------------------------------------------
-num = [1,2,3]
+class MyNumbers:
+    def __iter__(self):
+        self.a = 1
+        return self
+    def __next__(self):
+        if self.a <= 3:
+            x = self.a
+            self.a += 1
+            return x
+        else:
+            raise StopIteration
 
-mynum = iter(num)
+obj = MyNumbers()
+for num in obj:
+    print(num)
 
-print(next(mynum))
-
-print(next(mynum))
-
-print(next(mynum))
 --------------------------------------------------------------------------------------------------------------
 40.Use a for loop with an iterator to print elements of a tuple.
 ---------------------------------------------------------------------------------------------------------------
